@@ -3,130 +3,138 @@ height: 100%;
 
 }
 body {
-	background-color: lightgray;
-	
+  background-color: lightgray;
+  
 }
-menu{
-	font-family: Arial;
-	padding-left: 0px;
-	text-align: center;
-	font-size: 1.2em ;
-	margin-left: 0px;
-	float : left;
-	position : relative;
-}
-nav>b{
-	text-align: right;
-	
-	color: white;
-	
-	padding-left: 10px;
-	padding-right: 10px;	
-	padding-top: 8px;
-	padding-bottom: 8px;
-	
-	margin-left: auto;
-	margin-right: auto;
-	
-	border: 2px solid #FA5858; //rgb (255,0,0)
-	
-	border-radius :10px;
-	background-color: #FA5858;/*#0099FF*/
 
-}
-text{
-	text-align: center;
-	font-family : Arial;
-	font-size : 1.2em;
-	padding-left : center;
-	margin-left: center;
+.text{
+  text-align: center;
+  font-family : Tahoma;
+  font-size : 1.2em;
+  padding-left : center;
+  margin-left: center;
 }
 
 }
 footer{
-	position : absolute;
-	bottom : 0;
-	left : 0;
-	right :0;
-	float : none;
-	text-align: center;
-	font-size: 1.2em ;
 
+  position : absolute;
+  bottom : 0;
+  left : 0;
+  right :0;
+  float : none;
+  text-align: center;
+  font-size: 1.2em ;
 }
-
 
 a{
-	color: #FA5858;/* #D0D0D0*/
-	text-decoration: none;
-	font-weight: italic;
- 
+  color: #FA5858;/* #D0D0D0*/
+  text-decoration: none;
+  font-weight: italic;
 }
-a:hover{
-	color:#0D2638;
-}
-nav {
-	max-width: 250px;
-	
 
-	font-size: 1.2em ;
-}
-nav>a{
-display: block;
-	color: white;
-	text-decoration: none;
-	text-align: left;
-	font-weight: Bold;
 
-	
-	padding-left: 10px;
-	padding-right: 10px;	
-	padding-top: 8px;
-	padding-bottom: 8px;
-	
-	margin-left: 10px;
-	margin-right: 10px;
-	
-	border: 1px solid #424242; //rgb (255,0,0)
-	
-	border-radius :10px;
-	background-color: #FA5858;/*#0099FF*/
-	
+.login{
+  max-width: 250px;
+  font-size: 1.2em;
+  align: right;
 }
-login{
-	max-width: 250px;
-	font-size: 1.2em;
-	align: right;
+.content{ 
 }
-.content{
 
-	
-}
 .login{
  display: block;
-	color: white;
-	text-decoration: none;
-	text-align: right;
-	font-weight: Bold;
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  font-weight: Bold;
 
-	
-	padding-left: 10px;
-	padding-right: 10px;	
-	padding-top: 8px;
-	padding-bottom: 8px;
-	
-	margin-left: 1342px;
-	margin-right: 10px;
-	
-	border: 3px solid #424242; //rgb (255,0,0)
-	
-	border-radius :5px;
-	background-color: white;
-	text-align: right;
-	font-size : 1.2em;
-	font-family: Arial;
-	
-
+  
+  padding-left: 10px;
+  padding-right: 10px;  
+  padding-top: 8px;
+  padding-bottom: 8px;
+  
+  margin-left: 1342px;
+  margin-right: 10px;
+  
+  border: 3px solid #424242; //rgb (255,0,0)
+  
+  border-radius :5px;
+  background-color: white;
+  text-align: right;
+  font-size : 1.2em;
+  font-family: Arial;
+}
+  
 #rules{
-	text-align: center;
+  text-align: center;
 }
 
+
+/*MENU*/
+
+       ul{   
+          margin: 0;
+          padding: 0;
+          font-family: Trebuchet, Tahoma, Lucida; 
+          
+        }
+      .div-couleur {
+          background: #9F391A;
+          border-radius:5px;  
+          margin:auto;
+      }
+      .div-couleur:hover {
+         background: #ccc;
+
+          width: 180px;
+          -moz-transition: all .5s; 
+          -webkit-transition: all .5s; 
+          -o-transition: all .5s; 
+          transition: all .5s;
+
+      }
+      #menu-vertical, #menu-vertical ul {
+        text-decoration: none;
+          display: block;
+          color: white;
+          background: transparent;
+          width: 180px;
+          -moz-transition: all 0.5s; 
+          -webkit-transition: all .5s; 
+          -o-transition: all .5s; 
+          transition: all .5s;    
+      }
+
+      #menu-vertical li {  
+        position: relative;
+        border-radius: 6px;
+         margin-bottom:2px;
+         box-shadow: 3px 3px 3px #999;
+      }
+
+      #menu-vertical a {
+       display:block;
+        text-decoration: none;
+        color: #fff;
+        padding: 8px 0;
+        font-family: Tahoma;
+        font-size:1.0em;
+         -webkit-transition: all .3s; /* Chrome/Safari */
+        -moz-transition: all .3s; /* Firefox (plus trop nécessaire) */
+        transition: all .3s; /* syntaxe officielle */
+      }
+
+      #menu-vertical ul {
+        position: absolute;
+        left:-100em;
+        text-align: center;
+      }
+
+      #menu-vertical li:hover ul {
+        top: 0px;
+        left: 179px;
+      background: #1ABC9C;
+       
+      }
